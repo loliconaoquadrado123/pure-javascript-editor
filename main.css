@@ -34,15 +34,18 @@ body{
 }
 
 #text{
-    width: 100%;
+    width: 99%;
+    height: 100%;
+    border-left: blue solid 10px;
+
     overflow-x: none;
     
-    height: 100%;
 }
-#text:hover{
-    border:none;
 
+#text:hover,#text:focus{
+    outline: 0;
 }
+
 #text::first-letter{
     
 }
