@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    color:black;
     border:none;
     box-sizing:border-box;
+}
+body{
+    background-color: black;
 }
 #window{
     width: 100px;
